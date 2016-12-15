@@ -22,12 +22,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.css">
     <script src="https://cdn.jsdelivr.net/jquery.webui-popover/1.2.1/jquery.webui-popover.min.js"></script>
     <!-- Icons -->
-    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+<!--     <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'> -->
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="js/interactive.js">
-    <link rel="stylesheet" href="js/interactive.js">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 <!--     <div class="loader">
@@ -40,52 +38,65 @@
     <section id="intro">
         <header class="clearfix">
            
-            <div id="freelance"><span>Freelance</span></div>
-            <div id="webdev"><span>Web Developer</span></div>
-             <div class="wrapper">
-            <div><h1 id="name" white-text style="font-size: 20px; color: rosybrown;">Taylor&nbspEmolo</h1></div>
+            <div id="freelance"><span><p>coder</p></span></div>
+            <div id="webdev"><span>designer</span></div>
+            <div class="wrapper">
+                <div class="row center-align">
+                <div class="col s12 m6 l10 offset-l1">
+                    <div id="name"><h1 id="name" white-text style="font-size: 20px; color: black;">Taylor&nbspEmolo</h1>
+                    </div>
 <!--         <div id="logo"><img src="img/logo.png" alt="logo"></div> -->
 
-            <div class="icons">
-                <a id="email-icon" href="mailto:taylor.emolo@gmail.com" target="_blank" class="shareicon2 entypo-twitter wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.3s"></a>
-                
-                <a id="github-icon" href="https://github.com/taylorem2787" target="_blank" class="shareicon2 entypo-dribbble wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.4s"</a>
-                
-                <a id="stackof-icon" href="http://stackexchange.com/users/8769826/taylor-e" class="shareicon2 entypo-mail wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.5s; animation-name: fadeInDown;"></a>
+                <div class="icons-wrapper">
+                    <div class="row center-align">
+                    <div class="col s12 m6 l12">
+                        <div class="row">
+                            <div class="col s4 m2 l4">
+                                <a id="email-icon" href="mailto:taylor.emolo@gmail.com" target="_blank" class="shareicon2 entypo-twitter wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.3s"></a>
+                            </div>
+                            <div class="col s4 m2 l4">
+                                <a id="github-icon" href="https://github.com/taylorem2787" target="_blank" class="shareicon2 entypo-dribbble wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.4s"></a>
+                            </div>
+                            <div class="col s4 m2 l4">
+                                <a id="stackof-icon" href="https://stackexchange.com/users/8769826/taylor-e" class="shareicon2 entypo-mail wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.5s"></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
             </div>
         </header>
     </section> <!-- INTRO END -->
 
     <div id="openmenu"></div>
-    <nav class="enter transparent">
+    <nav class="enter black">
         <div class="menu menuworks"><span class="number">01</span><span class="label">Works</span></div>
         <div class="menu menuabout"><span class="number">02</span><span class="label">About</span></div>
-        <div id="logosmall"><img src="img/logo_small.png" width="80" height="70" alt="Logo Pauline Osmont"></div>
+        <div id="logosmall"><img src="assets/img/design/logo_small.png" width="80" height="70" alt="Logo Pauline Osmont"></div>
         <div id="close"></div>
         <div class="menu linkedin"><span class="number">03</span><span class="label">LinkedIn</span></div>
         <div class="menu menucontact"><span class="number">04</span><span class="label">Contact</span></div>
     </nav>
     
     <div id="grid_bg"></div>
-    <section id="grid" style="height: 5096px;">
+    <section id="grid">
         <div class="content">
             <div class="item item1 colorme">
-                <img src="grid/1.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
+                <img id="img1" src="assets/grid/1.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
-                    <div class="info_container">
-                    <div class="info">
-                        <h2>color<b>me</b></h2><div class="line">
-                    </div>
-                    <div class="role"><span class="role1">jQuery, mysql, Materialize, HTML5 & CSS </span><br>
+                    <div class="info_container"><div class="info">
+                    <h2>color<b>me</b></h2><div class="line"></div>
+                    <div class="role"><span class="role1">jQuery, mysql, node.js, Materialize, HTML5 & CSS </span><br>
                     <span class="role1">View App : <a href="https://taylorre-friendfinder.herokuapp.com/">color<b>me</b></a></span>
                     </div>
                     </div></div>
                 </div>
             </div>
             <div class="item item1 crystal">
-                <img src="grid/2.jpg" alt="https://taylorre-crystalcollector.herokuapp.com/">
+                <img id="img2" src="assets/grid/2.jpg" alt="https://taylorre-crystalcollector.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
                     <div class="info_container"><div class="info">
@@ -96,20 +107,8 @@
                     </div></div>
                 </div>
             </div>
-            <div class="item item2 clear giphy">
-                <img src="grid/3.jpg" alt="https://taylorgiphy.herokuapp.com/">
-                <div class="roll">
-                    <div class="left"><div></div></div><div class="right"><div></div></div>
-                    <div class="info_container"><div class="info">
-                        <h2>Giphy!</h2><div class="line"></div>
-                        <div class="role"><span class="role1">Giphy API</span><span class="role2">, Jquery , Bootstrap, HTML5 & CSS</span><br>
-                        <span class="role1">View App : <a href="https://taylorgiphy.herokuapp.com/">Giphy</a></span>
-                        </div>
-                    </div></div>
-                </div>
-            </div>
-            <div class="item item3 tailmates">
-                <img src="grid/4.jpg" alt="https://taylorre-tailmates.herokuapp.com/">
+            <div class="item item2 clear tailmates">
+                <img id="img3" src="assets/grid/3.jpg" alt="https://taylorgiphy.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
                     <div class="info_container"><div class="info">
@@ -120,8 +119,20 @@
                     </div></div>
                 </div>
             </div>
+            <div class="item item3 giphy">
+                <img id="img4" src="assets/grid/4.jpg" alt="https://taylorre-tailmates.herokuapp.com/">
+                <div class="roll">
+                    <div class="left"><div></div></div><div class="right"><div></div></div>
+                    <div class="info_container"><div class="info">
+                       <h2>Giphy!</h2><div class="line"></div>
+                        <div class="role"><span class="role1">Giphy API</span><span class="role2">, Jquery , Bootstrap, HTML5 & CSS</span><br>
+                        <span class="role1">View App : <a href="https://taylorgiphy.herokuapp.com/">Giphy</a></span>
+                        </div>
+                    </div></div>
+                </div>
+            </div>
             <div class="item item3 clear train">
-                <img src="grid/5.jpg" alt="https://taylors-train-schedule.herokuapp.com/">
+                <img id="img5" src="assets/grid/5.jpg" alt="https://taylors-train-schedule.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
                     <div class="info_container"><div class="info">
@@ -133,7 +144,7 @@
                 </div>
             </div>
             <div class="item item2 friendfinder">
-                <img src="grid/6.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
+                <img id="img6" src="assets/grid/6.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
                     <div class="info_container">    
@@ -146,8 +157,8 @@
                     </div></div>
                 </div>
             </div>
-            <div class="item item1 clear hangman">
-                <img src="grid/7.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
+<!--             <div class="item item1 clear hangman">
+                <img src="assets/grid/7.jpg" alt="https://taylorre-friendfinder.herokuapp.com/">
                 <div class="roll">
                     <div class="left"><div></div></div><div class="right"><div></div></div>
                     <div class="info_container"><div class="info">
@@ -158,7 +169,7 @@
                     </div>
                     </div></div>
                 </div>
-            </div>
+            </div> -->
             </div>
         </div>
     </section>
@@ -178,7 +189,7 @@
     <div class="masqueblanc"></div>
     <section id="about" class="pfix">
         <div id="about_info">
-            <div class="image"><img src="img/flower.jpg" alt="fond about"></div>
+            <div class="image"><img src="assets/img/flower.jpg" alt="fond about"></div>
             <span class="a">A</span><span class="b">B</span><span class="o">O</span><span class="u">U</span><span class="t">T</span><span class="underscore"></span>
         </div>
         
@@ -230,30 +241,31 @@
     
     <section id="contact" class="pfix">
         <div id="contact_info">
-            <div class="image"><img src="img/contact.jpg" alt="fond contact"></div>
+            <div class="image"><img src="assets/img/contact.jpg" alt="fond contact"></div>
             <span class="contactC">C</span><span class="contactO">O</span><span class="contactN">N</span><span class="contactT">T</span><span class="contactA">A</span><span class="contactCC">C</span><span class="contactTT">T</span><span class="contactM">M</span><span class="contactE">E</span>
         </div>
         <div id="form">
-<form action="https://formspree.io/taylor.emolo@gmail.com.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto" placeholder="Your email>
-    <input type="submit" value="Send">
-</form>
-            <form action="https://formspree.io/taylor.emolo@gmail.com" method="post" enctype="text/plain">
-<!--                 <div id="contactleft">
-                    <label class="legend1">Your name</label><input type="text" name="name" placeholder="Name">
-                    <label class="legend2">Your email</label><input name="email" id="email" type="text" value="" placeholder="Your email">
-                    <label class="legend3">Subject</label><input name="sujet" id="sujet" type="text" value="" placeholder="Subject">
+            <form action="https://formspree.io/taylor.emolo@gmail.com" method="POST" enctype="text/plain">
+                <div id="contactleft">
+                    <label class="legend1">Your name</label>
+                    <input type="text" name="name" placeholder="Name">
+                    
+                    <label class="legend2">Your email</label>
+                    <input type="email" name="_replyto" id="email" value="" placeholder="Your email">
+                    
+                    <label class="legend3">Subject</label>
+                    <input type="text" name="name" id="sujet" value="" placeholder="Subject">
+
                     <label class="legend4">Antispam : 10, 20, 30, 40, ?</label><input name="antispam" id="antispam" type="text" placeholder="Complete the numbers series">
-                </div> -->
+                </div>
                 <div id="contactright">
-                    <label class="legend5">Your message</label><textarea name="message" id="message" cols="20" rows="8"></textarea>
+                    <label class="legend5">Your message</label>
+                    <textarea name="message" id="message" cols="20" rows="8"></textarea>
                 </div>
                 <div class="clear"></div>
                 <input type="submit" class="envoyer" value="Send">
             </form>
-            <div class="error"></div>
+          <!--   <div class="error"></div> -->
         </div>
 <!--         <div id="social">
             <a href="http://www.linkedin.com/in/tayloremolo" class="linkedin"></a>
@@ -261,23 +273,32 @@
     </section>
     <footer>
         <div class="content center-align">
-            <div class="row center-align">
-                <div class="col s12 m6 l12">
-                    <span>Contact Me</span>
-            
-                    <a id="email-icon" style="border: 4px double white;" href="mailto:taylor.emolo@gmail.com" target="_blank" class="shareicon2 entypo-twitter wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.3s"></a>
-                    
-                    <a id="github-icon" style="border: 4px double white;" href="https://github.com/taylorem2787" target="_blank" class="shareicon2 entypo-dribbble wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.4s"</a>
-                    
-                    <a id="stackof-icon" style="border: 4px double white;" href="http://stackexchange.com/users/8769826/taylor-e" class="shareicon2 entypo-mail wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.5s; animation-name: fadeInDown;"></a>
-                </div>    
-            </div>
-        </div>
-        <div class="row">
+               <div class="icons-wrapper">
+                    <div class="row center-align">
+                    <div class="col s12 m6 l12">
+                        <div class="row">
+                            <div class="col s4 m2 l4">
+                                <a id="email-icon" href="mailto:taylor.emolo@gmail.com" target="_blank" class="shareicon2 entypo-twitter wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.3s"></a>
+                            </div>
+                            <div class="col s4 m2 l4">
+                                <a id="github-icon" href="https://github.com/taylorem2787" target="_blank" class="shareicon2 entypo-dribbble wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.4s"></a>
+                            </div>
+                            <div class="col s4 m2 l4">
+                                <a id="stackof-icon" href="https://stackexchange.com/users/8769826/taylor-e" class="shareicon2 entypo-mail wow fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.5s"></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+                        <div class="row">
             <div class="col s12">
                 <p>Images sourced from <a href="www.pexel.com" class="clickable-link">Pexels</a></p>
             </div>
         </div>
+
+            </div>
+        </div>
+
 
            <!--  <div id="footerleft"> -->
 <!--                 <span>Contact Me</span>
@@ -297,15 +318,15 @@
             </div>
  -->        
     </footer>
-    <script type="text/javascript" src="js/interactive.js"></script>
-    <script src="js/interactive.js"></script>
-    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- <script type="text/javascript" src="js/form.js"></script> -->
 </body>
 </html>
 
 
 
 
-<div id="window-resizer-tooltip"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div>
+<!-- <div id="window-resizer-tooltip"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div> -->
 </body>
 </html>
